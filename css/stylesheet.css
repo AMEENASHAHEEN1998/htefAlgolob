@@ -19,7 +19,7 @@ ul>li>a:active {
 
 
 .text{
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #000;
 }
@@ -148,6 +148,14 @@ ul>li>a:active {
 .smlFoo{
     text-align: right;
 }
+.borderbutton{
+    border-bottom: #efefef 1px solid;
+    
+
+}
+.borderbuttonItem{
+    border-bottom: #efefef 8px solid;
+}
 
 @media (min-width: 320px) and (max-width: 900px){ 
     .line22{
@@ -199,4 +207,15 @@ ul>li>a:active {
     hr{
         display: block;
     }
+}
+@media(width: 768px){
+#ipade1{
+    margin-top: -350px;
+}
+#ipade2{
+    padding-top: 0px;
+}
+#ipade3{
+    padding-top:150px ;
+}
 }
